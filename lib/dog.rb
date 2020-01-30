@@ -15,7 +15,7 @@ class Dog
 
   def self.print_all
     @@all.each do |dog|
-      puts dog 
+      puts dog
     end
   end
 
@@ -24,7 +24,7 @@ class Dog
   end
 
   def save
-    @@all << name#shovels instance to @@all array when instantiated
+    @@all << self#shovels instance to @@all array when instantiated
   end
 
 end
