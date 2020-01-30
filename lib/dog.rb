@@ -6,7 +6,6 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << self#shovels instance to @@all array when instantiated
   end
 
   def self.all
@@ -17,6 +16,10 @@ class Dog
     @@all.each do |dog|
       puts dog
     end
+  end
+
+  def self.save
+    @@all << self#shovels instance to @@all array when instantiated
   end
 
 end
