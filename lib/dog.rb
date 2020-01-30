@@ -9,4 +9,8 @@ class Dog
     @@all << self#shovels instance to @@all array when instantiated
   end
 
+  def self.all
+    @@all 
+  end
+
 end
