@@ -18,7 +18,7 @@ class Dog
     end
   end
 
-  def self.save
+  def save
     @@all << self#shovels instance to @@all array when instantiated
   end
 
